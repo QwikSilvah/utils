@@ -1,7 +1,7 @@
 function applySpinner (config = {}) {
 	
 	/*
-	Requires overlay func for full page spinner functionality
+	Ensure overlay func to enable page overlay for full page spinner
 	Exclude config.target for full page spinner
 
 	target: DOM element to contain spinner, default body
