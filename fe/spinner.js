@@ -60,5 +60,5 @@ function clearFullPageSpinner() {
 			spinner.remove();
 		}
 	}
-	if (clearOverlay) clearOverlay();
+	if (typeof clearOverlay !== "undefined") clearOverlay();
 }
