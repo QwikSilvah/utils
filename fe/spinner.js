@@ -22,7 +22,7 @@ function applySpinner (config = {}) {
 		</div></div>`;
 	
 	if (config.target === "body") {
-		applyOverlay();
+		if (typeof applyOverlay !== "undefined") applyOverlay();
 		
 		let spinnerContainer = document.createElement("div");
 		spinnerContainer.innerHTML = spinnerHTML;
