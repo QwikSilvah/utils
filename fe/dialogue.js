@@ -10,7 +10,7 @@ function showAlert(config={}) {
     closeButton: Boolean; show close button, defaults to true
     width: String; CSS width of alert eg. 100%, defaults to 100%
     fade: Boolean or duration in milliseconds to fade alert box, defaults to true || 5000
-    position: String; CSS positioning of alert div, defaults to "fixed"
+    position: RECOMMENDED; String; CSS positioning of alert div, defaults to "fixed"
     top: String/Number; CSS positioning of alert div from top
     bottom: String/Number; CSS positioning of alert div from bottom //needs review
     zIndex: String; CSS z-index of alert div, defaults to 5
