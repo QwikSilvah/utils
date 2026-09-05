@@ -5,7 +5,7 @@ function showAlert(config={}) {
     /*
     target: RECOMMENDED; DOM element to contain alert
 	htmlClassName: String; html class to facilitate DOM manipulation
-    alertClass: RECOMMENDED; String; BootStrap utility class eg. "alert-primary", accepts "primary"
+    alertClass: REQUIRED; String; BootStrap utility class eg. "alert-primary", accepts "primary"
     content: String; innerHTML to render
     closeButton: Boolean; show close button, defaults to true
     width: String; CSS width of alert eg. 100%, defaults to 100%
